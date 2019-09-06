@@ -1,0 +1,41 @@
+#c1{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    display: block;
+    background-color: green;
+}
+#c2{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    display: block;
+    background-color: blue;
+}
+#c3{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    display: block;
+    background-color: red;
+}
+
+#l{
+    padding-top: 200px;
+    width: 5px;
+}
+
+#l:hover + #c1{
+    float:right;
+}
+
+#l:hover + #c2{
+    float:right;
+}
+
+#l:hover + #c3{
+    float:right;
+}

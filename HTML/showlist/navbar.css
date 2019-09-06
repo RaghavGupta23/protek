@@ -1,0 +1,103 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+.gallery{
+    margin-top: 25%;
+    margin-left: 40%;
+}
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+        .dropdown1:hover+.dropdown2 {
+          position: absolute;
+        }
+        .dropdown1:hover+.dropdown3 {
+          position: absolute;
+          bottom: 1000px;
+        }
+        .dropdown1:hover+.dropdown4 {
+          position: absolute;
+          bottom: 1000px;
+        }
+.dropdown2:hover .dropdown-content {
+  display: block;
+}
+        .dropdown2:hover+.dropdown1 {
+          display: block;
+        }
+        .dropdown2:hover+.dropdown3 {
+          display: block;
+        }
+        .dropdown2:hover+.dropdown4 {
+          display: block;
+        }
+.dropdown3:hover .dropdown-content {
+  display: block;
+}
+        .dropdown3:hover+.dropdown1 {
+          display: block;
+        }
+        .dropdown3:hover+.dropdown2 {
+          display: block;
+        }
+        .dropdown3:hover+.dropdown4 {
+          display: block;
+        }
+.dropdown4:hover .dropdown-content {
+  display: block;
+}
+        .dropdown4:hover+.dropdown1 {
+          display: block;
+        }
+        .dropdown4:hover+.dropdown2 {
+          display: block;
+        }
+        .dropdown4:hover+.dropdown3 {
+          display: block;
+        }

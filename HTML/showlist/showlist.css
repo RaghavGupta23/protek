@@ -1,0 +1,14 @@
+.main{
+    width: 400px;
+    height: 400px;
+    margin: 15%;
+    border-style: solid;
+}
+
+.main>ol{
+    display: none;
+}
+
+.main>button:focus + ol {
+    display: block;
+}

@@ -1,0 +1,86 @@
+.header{
+    background-color: rgb(0,128,0);
+    text-align: center;
+    margin-bottom: 10px;
+    height: 20%;
+}
+.nav{
+    text-align: left;
+}
+.nav a{
+    color: white;
+}
+.mainImage{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#mainImage{
+    width: 100%;
+}
+.address{
+    border-style: solid;
+     width: 10%;
+    background-color: rgb(169,169,169);
+    display: inline-block;
+}
+.reviews{
+    background-color: rgb(220,100,100);
+    width: 80%;
+    border-style: solid;
+    margin-right: 5px;
+    float: right;
+}
+#reviewIMG {
+    width: 100px;
+    height: 100px;
+}
+.gallery{
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 19.5%;
+    text-align: left;
+}
+
+.gallery img{
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+}
+#redline1{
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+}
+#redline2{
+    border-right: 10px solid red;
+    border-top: 10px solid red;
+}
+#redline3{
+    border-top: 10px solid red;
+}
+.footer{
+margin-left: 10px;
+margin-right: 10px;
+text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
