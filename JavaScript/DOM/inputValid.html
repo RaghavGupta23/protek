@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="inputValid.css">
+        <script src="inputValid.js">
+
+        </script>
+        <title>InputValidation</title>
+    </head>
+    <body>
+        <div class="">
+        <form action="/action_page.php">
+              First name:<br>
+              <input type="text" name="firstname" value="Enter Here:" id="userName">
+              <br><br>
+              Last name:<br>
+              <input type="password" name="password" value="Enter Here:" id="password">
+              <br><br>
+              Gender:
+              <div class="gender" id="gender">
+                  <input type="radio" name="gender" value="Male" id="genderM"> Male
+                  <input type="radio" name="gender" value="Female" id="genderF"> Female
+              </div>
+              <br><br>
+              Country:
+              <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+              </select>
+              <br><br>
+              Comments:
+              <input type="text" name="comment" value="Enter Here:" id="comment">
+              <br><br>
+              <div class="agreeDiv">
+                  <input type="checkbox" name="agree" value="agree" id="agree"> I Agree.
+              </div>
+             <br><br><br><br><br><br>
+              <input type="submit" value="Register" onclick="validate()">
+        </form>
+        </div>
+    </body>
+</html>
